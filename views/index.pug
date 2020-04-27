@@ -1,0 +1,42 @@
+html
+head
+  title Kims-Convenience
+  link(rel='stylesheet' href='/css/styles.css')
+  body
+    h1 Kim's Convenience
+    div(class= 'develop')
+    h2 Developed By
+    ul
+    for developedBy in showdata.developedBy
+      li= developedBy
+    div(class= 'starring')
+    h2 Starring
+      ul
+    for starring in showdata.starring
+      li= starring
+    div(class= 'seasons')
+    h2 Seasons
+    a(href= '#') Season 1
+    br
+    a(href= '#') Season 2
+    br
+    a(href= '#') Season 3
+    br
+    a(href= '#') Season 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
