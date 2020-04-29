@@ -1,0 +1,27 @@
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 75%;
+}
+#season-title {
+  text-align: center;
+}
+.col-name {
+  font-weight: bolder;
+  background: #06a8f3;
+  text-align: center;
+}
+
+th {
+  font-size: 28px;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+td {
+  border: 3px solid #0a0a0a;
+  font-size: 18px;
+  padding: 10px;
+  text-align: left;
+}
+
